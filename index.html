@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fighting Game | 2022 Eatoldglue</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- Red Container Div -->
+	<div class="red__container__div">
+		<!-- Smaller Red Container Div -->
+		<div class="smaller_red_container_div">
+			<!-- player health -->
+			<div class="player__health__container">
+				<div class="player__health--container"></div>
+				<div id="playerHealth" class="player__health"></div>
+			</div>
+			<!-- Timer -->
+			<div id="timer" class="timer__container">
+				10
+			</div>
+			<!-- enemy health -->
+			<div class="enemy__health__container">
+				<div class="enemy__health--container"></div>
+				<div id="enemyHealth" class="enemy__health"></div>
+			</div>
+			<div></div>
+		</div>
+		<div id="displayText" class="tie__round">Tie</div>
+		<canvas></canvas>
+	</div>
+	<script src="js/classes.js" defer></script>
+	<script src="js/utils.js" defer></script>
+	<script src="index.js" defer></script>
+</body>
+
+</html>
